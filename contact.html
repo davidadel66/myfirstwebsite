@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="index.javascript"></script>
+    <link href="contact.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact info</title>
+
+
+</head>
+<body>
+
+<!-- Navbar -->
+    <div class="navbar-container">
+        <ul>
+            <li class="nav-link">
+                <a href="./index.html">home
+                </a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="#">resume</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="#">forums</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="./contact.html">contact</a>
+                <div class="underline"></div>
+            </li>
+            <li class="nav-link">
+                <a href="./loki.html">loki</a>
+                <div class="underline"></div>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Navbar -->
+
+
+
+    <main>
+        <h1> send me a message!</h1>
+        <form class="contact-form" action="contact.php" method="post">
+            <div class="half left cf">
+                <input type="text" name="name" placeholder="Full name">
+                <input type="text" name="mail" placeholder="Email Address">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+            <div class="half right cf">
+                <textarea name="message" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Submit" id="input-submit">
+        </form>
+
+            
+
+    </main>
+</body>
+</html>
