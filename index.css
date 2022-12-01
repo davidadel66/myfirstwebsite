@@ -2,6 +2,7 @@
     html,body {
         margin: 0;
         padding: 0;
+        background-color: lightgray;
     }
 
     body, html {
@@ -77,12 +78,11 @@
 
       .frontpage {
         height: 800px;
-        background-color: #333;
     
       }
 
       .btn-main{
-        background-color: lightgray;
+        background-color: darkgray;
         color: #fff;
         font-family: 'Raleway',sans-serif;
         font-weight: 600;
@@ -91,6 +91,7 @@
         padding:16px 14px;
         text-decoration: none;
         text-transform:lowercase;
+        border-radius: 5px;
       }
 
       .btn-default {
