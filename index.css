@@ -196,3 +196,39 @@ p{
 }
 
 
+@media screen and (max-width:500px){
+    h2{
+        padding-top:10px;
+        text-align: center;
+       margin-right:auto;
+    }
+
+    h1{
+        padding-top:150px;
+    }
+
+    
+    .block {
+        background-image: url(./hand-painted-watercolor-backgrou.jpg); 
+        background-size: cover;
+        height: 1820px;
+        width: 100%;
+        padding-top:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .front {
+        background-image: url('./hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+        background-size:cover;
+        height: 940px;
+        width: 100%;   
+    }
+
+    .box-container{
+        padding-left: 70px;
+    }
+}
+
+
