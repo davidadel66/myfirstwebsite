@@ -196,7 +196,7 @@ p{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:950px){
     *{
         box-sizing: border-box;
         padding: auto;
@@ -227,7 +227,7 @@ p{
     .front {
         background-image: url('./hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
         background-size:cover;
-        height: 1740px;
+        height: 1340px;
         width: 100%;   
     }
 
@@ -258,6 +258,8 @@ p{
         border-radius: 10px;
         float:none;
     }
+
+
 }
 
 
