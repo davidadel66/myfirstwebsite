@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../images/hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+    background-size: cover;
+}
+.dropdown{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7aa4b8;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.dropdown-lists{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.dropdown a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #095037;
+    display: block;
+}
+
+.dropdown a:hover, .dropdown a:focus {
+    color: whitesmoke;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.3em;
+    background-color: transparent;
+}
+.hamburger {
+    position: absolute;
+    color: lightslategray;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin-top: 1%;
+    color: lightslategray;
+    text-align: center;
+    font-size: 35px;
+}
+
+.headline {
+    margin-top: 25%;
+}

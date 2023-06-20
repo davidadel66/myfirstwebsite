@@ -5,3 +5,6 @@ function openMenu() {
 function closeMenu() {
     document.getElementById("myMenu").style.height = "0%"
 }
+
+
+

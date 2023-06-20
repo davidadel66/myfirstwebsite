@@ -1,0 +1,206 @@
+/* Common Styles */
+:root{
+    --font-color: #555;
+    --font-hover-color:orange;
+}
+
+html, body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../images/hand-painted-watercolor-background-with-sky-clouds-shape.jpg');
+    background-size: cover;
+}
+
+.dropdown{
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7aa4b8;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.dropdown-lists{
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.dropdown a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #095037;
+    display: block;
+}
+
+.dropdown a:hover, .dropdown a:focus {
+    color: whitesmoke;
+}
+
+
+.hamburger {
+    position: absolute;
+    color: lightslategray;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Index Page Styles */
+.front {
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+}
+
+h1, h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 1%;
+    color: lightslategray;
+    text-align: center;
+    font-size: 65px;
+}
+
+h2 {
+    text-align: center;
+    color: lightslategray;
+    font-size: 35px;
+    padding-bottom: 10%;
+}
+
+/* Contact Section Styles */
+.header-text {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.3em;
+    background-color: transparent;
+}
+.mission-section {
+    text-align: center;
+    padding: 60px 20px;
+    margin: 25% auto;
+}
+
+
+.mission-statement {
+    font-size: 2.5em;
+    line-height: 1.6em;
+    color: #666;
+    margin: 0 auto;
+}
+
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 2em;
+    padding: 15px 30px;
+    margin: 40px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+.card {
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Light background color */
+    margin: 20px; /* Some spacing around each card */
+}
+
+.card-title {
+    color: darkgreen; /* Dark blue color for the title */
+    margin-top: 20px; /* Space at the top */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #555; /* Grey text color */
+    margin: 10px 0; /* Space at top and bottom */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More shadow on hover */
+}
+
+
+.my-5{
+    padding-top:350px;
+    margin: 0 auto;
+
+}
+.btn i {
+    margin-right: 10px;
+}
+
+.github {
+    background-color: #333;
+}
+
+.github:hover {
+    background-color: #6e5494;
+}
+
+.linkedin {
+    background-color: #0e76a8;
+}
+
+.linkedin:hover {
+    background-color: #333;
+}
+
+.email {
+    background-color: #d44638;
+}
+
+.email:hover {
+    background-color: #333;
+}
